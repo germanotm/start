@@ -1,0 +1,40 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,600italic,700,700italic,300italic" rel="stylesheet" type="text/css">
+  <link href="/css/animate.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/js/woothemes-FlexSlider-06b12f8/flexslider.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="/js/prettyPhoto_3.1.5/prettyPhoto.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="/fonts/font-awesome/css/font-awesome.min.css" media="screen">
+  <script type="text/javascript" src="/js/modernizr.custom.48287.js"></script>
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/bootstrap.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}">
+  
+  <script type="text/javascript" src="{{ "/js/jquery-1.12.0.min.js" | prepend: site.baseurl }}"></script>
+  <script type="text/javascript" src="{{ "/js/bootstrap.js" | prepend: site.baseurl }}"></script>
+  <script src="/js/woothemes-FlexSlider-06b12f8/jquery.flexslider-min.js"></script>
+  <script src="/js/prettyPhoto_3.1.5/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+  <script src="js/isotope/jquery.isotope.min.js" type="text/javascript"></script>
+  <script type="text/javascript" src="/js/jquery.ui.totop.js"></script>
+  <script type="text/javascript" src="/js/easing.js"></script>
+  <script type="text/javascript" src="/js/wow.min.js"></script>
+  <script type="text/javascript" src="/js/snap.svg-min.js"></script>
+  <script type="text/javascript" src="/js/restart_theme.js"></script>
+  <!-- <script type="text/javascript" src="js/collapser.js"></script> -->
+
+  <!-- Fav and touch icons -->
+  <link rel="/images/apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png">
+  <link rel="/images/apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
+  <link rel="/images/apple-touch-icon-precomposed" href="apple-touch-fa-57x57-precomposed.png">
+  <link rel="shortcut icon" href="/images/favicon.png">
+  
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+</head>

@@ -54,9 +54,14 @@ $(document).ready(function() {
                 "from_name": user_name,
                 "to": [
                     {
-                        "email": "germanotm@gmail.com",
+                        "email": "gumoraees@gmail.com",
                         "name": "Gustavo Morais",
                         "type": "to"
+                    },
+                    {
+                        "email": "germanotm@gmail.com",
+                        "name": "Germano Teixeira",
+                        "type": "cc"
                     }
                 ],
                 "headers": {

@@ -1,0 +1,71 @@
+---
+layout: start
+title: Contato
+permalink: contact.html
+---
+
+<div class="full_page_photo"><div id="map">
+  <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:440px;width:100%;'><div id='gmap_canvas' style='height:400px;width:100%;'></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:15,center:new google.maps.LatLng(-19.8879217,-43.93277929999999),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(-19.8879217,-43.93277929999999)});infowindow = new google.maps.InfoWindow({content:'<strong>Start Engenharia Integrada</strong><br>Rua Vazante 88, Cidade Nova - Belo horizonte<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+</div></div>
+<div class="main">
+      <section class="hgroup">
+          <div class="container">
+               <h1>Entre em contato</h1>
+               <h2>Envie uma mensagem e teremos muito prazer em ajudar no que for preciso...</h2>
+               <ul class="breadcrumb pull-right">
+                    <li><a href="{{ "/index.html" | prepend: site.github.url }}">Início</a> </li>
+                    <li class="active">Contato</li>
+               </ul>
+           </div>
+      </section>
+      <section>
+          <div class="container">
+               <div class="row">
+                    <div class="office_address col-sm-4 col-md-4">
+                         <div class="team_member">
+                          <img src="images/restart_logo.png" width="90" height="90" alt="logo">
+                          <h5>{re}start, HTML</h5>
+                              <small>Engenharia Integrada Ltda</small><br><br>
+                              <div class="team_social"> <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a> <a href="https://twitter.com/leonartgr"><i class="fa fa-twitter"></i></a> <a href="#pinterest"><i class="fa fa-linkedin"></i></a> <a href="https://github.com/PlethoraThemes"><i class="fa fa-github-alt"></i></a> </div>
+                              <address>
+                              <strong></strong><br>
+                              795 Folsom Ave, Suite 600<br>
+                              San Francisco, CA 94107<br>
+                              <abbr title="Phone">P:</abbr> (123) 456-7890
+                              </address>
+                              <address>
+                              <abbr title="Phone">E:</abbr> <a href="mailto:#">first.last@example.com</a>
+                              </address>
+                         </div>
+                    </div>
+                    <div class="contact_form col-sm-8 col-md-8">
+                         <form name="contact_form" id="contact_form" method="post">
+                              <div class="row">
+                                   <div class="col-sm-6 col-md-6">
+                                        <label>Nome</label>
+                                        <input name="name" id="name" class="form-control" type="text" value="">
+                                   </div>
+                                   <div class="col-sm-6 col-md-6">
+                                        <label>E-mail</label>
+                                        <input name="email" id="email" class="form-control" type="text" value="">
+                                   </div>
+                              </div>
+                              <div class="row">
+                                   <div class="col-sm-12 col-md-12">
+                                        <label>Assunto</label>
+                                        <input name="subject" id="subject" class="form-control" type="text">
+                                   </div>
+                              </div>
+                              <div class="row">
+                                   <div class="col-sm-12 col-md-12">
+                                        <label>Mesagem</label>
+                                        <textarea name="message" id="message" rows="8" class="form-control"></textarea>
+                                   </div>
+                                   <div class="col-sm-12 col-md-12"><br/>
+                                        <a id="submit_btn" class="btn btn-primary" name="submit">Enviar Mensagem</a> <span id="notice" class="alert alert-warning alert-dismissable hidden" style="margin-left:20px;"></span> </div>
+                              </div>
+                         </form>
+                    </div>
+               </div>
+           </div>
+      </section>

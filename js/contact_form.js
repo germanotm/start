@@ -41,7 +41,39 @@ $(document).ready(function() {
 
         //everything looks good! proceed...
         if(proceed) 
-        {
+        { 
+          $.ajax({
+            type: "POST",
+            url: "https://mandrillapp.com/api/1.0/messages/send.json",
+            data: {
+              "key": "Bm9ylyO8xILbtfVFemZ0gQ",
+              "message": {
+                "text": user_message,
+                "subject": user_subject,
+                "from_email": user_email,
+                "from_name": user_name,
+                "to": [
+                    {
+                        "email": "germanotm@gmail.com",
+                        "name": "Gustavo Morais",
+                        "type": "to"
+                    }
+                ],
+                "headers": {
+                    "Reply-To": user_email
+                }
+              }
+            }
+          }).fail(function(data) {
+            notice.removeClass().html("Erro ao enviar mensagem!").addClass("alert alert-danger alert-dismissable").fadeIn(400);
+            console.error(data);
+          }).done(function(data) {
+            //reset values in all input fields
+            $('#contact_form input').val(''); 
+            $('#contact_form textarea').val(''); 
+            notice.removeClass().html("Mensagem enviada com sucesso!").addClass("alert alert-success alert-dismissable").fadeIn(400);
+          });
+            /*
             //data to be sent to server
             post_data = {'userName':user_name, 'userEmail':user_email, 'userSubject':user_subject, 'userMessage':user_message};
             
@@ -64,7 +96,7 @@ $(document).ready(function() {
                 }
                 
             }, 'json');
-            
+           */ 
         }
     });
     
@@ -72,5 +104,9 @@ $(document).ready(function() {
     $("#contact_form input, #contact_form textarea").keyup(function() { 
         $("#contact_form input, #contact_form textarea").css('border-color',''); 
     });
+
+    function sendMail(){
+      
+}
     
 });

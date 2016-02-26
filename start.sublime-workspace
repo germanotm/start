@@ -159,14 +159,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "start.sublime-project",
-			"settings":
-			{
-				"buffer_size": 45,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -221,10 +213,36 @@
 	},
 	"expanded_folders":
 	[
-		"/home/germano/projetos/start"
+		"/home/germano/projetos/start",
+		"/home/germano/projetos/start/_includes",
+		"/home/germano/projetos/start/_layouts",
+		"/home/germano/projetos/start/_posts"
 	],
 	"file_history":
 	[
+		"/home/germano/projetos/start/index.html",
+		"/home/germano/projetos/start/_includes/footer.html",
+		"/home/germano/Área de Trabalho/restart_v4.1/index.html",
+		"/home/germano/projetos/start/blog.html",
+		"/home/germano/projetos/start/_layouts/start.html",
+		"/home/germano/projetos/start/_includes/header.html",
+		"/home/germano/projetos/start/_config.yml",
+		"/home/germano/projetos/start/_includes/head.html",
+		"/home/germano/projetos/start/feed.xml",
+		"/home/germano/projetos/start/README.md",
+		"/home/germano/projetos/start/js/jquery.ui.totop.js",
+		"/home/germano/projetos/start/_site/js/restart_theme.js",
+		"/home/germano/projetos/start/css/main.scss",
+		"/home/germano/projetos/start/css/style.css",
+		"/home/germano/projetos/start/about.md",
+		"/home/germano/projetos/start/_layouts/page.html",
+		"/home/germano/Área de Trabalho/restart_v4.1/less/custom_variables.less",
+		"/home/germano/Área de Trabalho/restart_v4.1/less/style.less",
+		"/home/germano/Área de Trabalho/restart_v4.1/js/restart_theme.js",
+		"/home/germano/Área de Trabalho/restart_v4.1/documentation/readme.txt",
+		"/home/germano/Área de Trabalho/bootstrap-3.3.6-dist/js/bootstrap.js",
+		"/home/germano/Área de Trabalho/bootstrap-3.3.6-dist/js/npm.js",
+		"/home/germano/Área de Trabalho/restart_v4.1/twitter-bootstrap/js/bootstrap.js",
 		"/home/germano/projetos/cfaz-manager/app/controllers/dentists_controller.rb",
 		"/home/germano/projetos/cfaz-manager/app/controllers/patients_controller.rb",
 		"/home/germano/projetos/cfaz-manager/app/models/clinic.rb",
@@ -329,34 +347,11 @@
 		"/home/germano/projetos/cfaz-manager/db/migrate/20160201232442_drop_table_admin.rb",
 		"/home/germano/projetos/cfaz-manager/db/migrate/20130810093712_create_admins.rb",
 		"/home/germano/projetos/cfaz-manager/app/models/admin.rb",
-		"/home/germano/projetos/cfaz-manager/app/views/supporter/clinics/show.html.erb",
-		"/home/germano/projetos/cfaz-manager/db/migrate/20160201134309_create_clinics_worker.rb",
-		"/home/germano/projetos/cfaz-manager/app/views/supporter/dashboard/index.html.erb",
-		"/home/germano/projetos/cfaz-manager/app/controllers/supporter/dashboard_controller.rb",
-		"/home/germano/projetos/cfaz-manager/db/migrate/20160128004544_add_user_to_clinics_chain.rb",
-		"/home/germano/projetos/cfaz-manager/db/migrate/20160128003923_change_clinics_chain_to_user.rb",
-		"/home/germano/projetos/cfaz-manager/app/controllers/admin/users_controller.rb",
-		"/home/germano/projetos/cfaz-manager/config/deploy.rb",
-		"/home/germano/projetos/cfaz-manager/app/controllers/worker/requests_controller.rb",
-		"/home/germano/projetos/cfaz-manager/app/models/request.rb",
-		"/home/germano/projetos/cfaz-manager/Capfile",
-		"/home/germano/projetos/cfaz-manager/Gemfile.lock",
-		"/home/germano/projetos/cfaz-manager/config/redis.yml",
-		"/home/germano/projetos/cfaz-manager/config/environments/production.rb",
-		"/home/germano/projetos/cfaz-manager/config/application.rb",
-		"/home/germano/projetos/cfaz-manager/config/initializers/setup_mail.rb",
-		"/home/germano/projetos/cfaz-manager/app/mailers/user_mailer.rb",
-		"/home/germano/projetos/cfaz-manager/.gitignore",
-		"/home/germano/projetos/cfaz-manager/config/initializers/redis.rb",
-		"/home/germano/projetos/cfaz-manager/config/newrelic.yml",
-		"/home/germano/projetos/cfaz-manager/app/views/layouts/worker.html.erb",
-		"/home/germano/projetos/cfaz-manager/config/environments/staging.rb",
-		"/home/germano/projetos/cfaz-manager/config/initializers/image.rb",
-		"/home/germano/projetos/cfaz-manager/app/views/layouts/_i18n.html.erb"
+		"/home/germano/projetos/cfaz-manager/app/views/supporter/clinics/show.html.erb"
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 48.0
 	},
 	"find_in_files":
 	{
@@ -382,6 +377,26 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"baseu",
+			"site.baseurl",
+			"ui.totop.png",
+			"back",
+			"png",
+			".png",
+			"totop.png",
+			"ui.totop",
+			"active",
+			"addclass('active",
+			"addclass",
+			"class",
+			"active",
+			"href",
+			"navigation",
+			"flex",
+			"slider_wrapper",
+			"collapsing_header",
+			"pages",
+			"less",
 			"admin_dentist_path",
 			"@admin",
 			"admin",
@@ -489,27 +504,7 @@
 			"clinics_wo",
 			"clinics_work",
 			"clinics_workers",
-			"admin",
-			"clinics",
-			"worker",
-			"lib",
-			"clinic",
-			"admin?",
-			"workers",
-			"adm",
-			"admin",
-			"authenti",
-			"Admin",
-			"build",
-			"authentica",
-			"setup_first_worker",
-			"clinics_chains",
-			"reference",
-			"private",
-			"prote",
-			"destr",
-			"admin",
-			"check"
+			"admin"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -527,37 +522,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "start.sublime-project",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 45,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -613,6 +579,34 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"jquery.ui.totop.js",
+				"js/jquery.ui.totop.js"
+			],
+			[
+				"header",
+				"_includes/header.html"
+			],
+			[
+				"about",
+				"about.md"
+			],
+			[
+				"maiscss",
+				"css/main.scss"
+			],
+			[
+				"config",
+				"_config.yml"
+			],
+			[
+				"_config",
+				"_config.yml"
+			],
 			[
 				"patiencontr",
 				"app/controllers/patients_controller.rb"
@@ -946,10 +940,6 @@
 				"app/models/ability/worker_ability.rb"
 			],
 			[
-				"index",
-				"app/views/clinics/index.html.erb"
-			],
-			[
 				"clinicscontroll",
 				"app/controllers/clinics_controller.rb"
 			],
@@ -1100,30 +1090,6 @@
 			[
 				"admin",
 				"app/models/admin.rb"
-			],
-			[
-				"changeusertoworke",
-				"db/migrate/20160128013242_change_users_to_worker.rb"
-			],
-			[
-				"clinicscha",
-				"app/models/clinics_chain.rb"
-			],
-			[
-				"users/index",
-				"app/views/supporter/users/index.html.erb"
-			],
-			[
-				"role",
-				"app/models/role.rb"
-			],
-			[
-				"usercliniccha",
-				"db/migrate/20160128004544_add_user_to_clinics_chain.rb"
-			],
-			[
-				"changeclinic",
-				"db/migrate/20160128003923_change_clinics_chain_to_user.rb"
 			]
 		],
 		"width": 0.0
@@ -1131,9 +1097,17 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "cfa",
+		"last_filter": "manager",
 		"selected_items":
 		[
+			[
+				"manager",
+				"~/projetos/cfaz-manager/cfaz-manager.sublime-project"
+			],
+			[
+				"cfaz mana",
+				"~/projetos/cfaz-manager/cfaz-manager.sublime-project"
+			],
 			[
 				"cfa",
 				"~/projetos/cfaz/cfaz.sublime-project"
@@ -1141,10 +1115,6 @@
 			[
 				"cfaz",
 				"~/projetos/cfaz/cfaz.sublime-project"
-			],
-			[
-				"manager",
-				"~/projetos/cfaz-manager/cfaz-manager.sublime-project"
 			],
 			[
 				"contat",
@@ -1242,7 +1212,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 236.0,
+	"side_bar_width": 307.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

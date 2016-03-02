@@ -311,7 +311,7 @@ jQuery(document).ready(function() {
   links = $('.navbar-nav a')
     $.each(links, function(index,value) {
       link = $(value)
-      if(window.location.pathname.includes(link.attr('href'))) {
+      if(window.location.href.includes(link.attr('href'))) {
         links.closest('li').removeClass('active');
         link.closest('li').addClass('active');
       }

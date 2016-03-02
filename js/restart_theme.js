@@ -307,3 +307,12 @@ container.isotope({ });
   }(jQuery));
 
 
+jQuery(document).ready(function() {
+  links = $('.navbar-nav a')
+    $.each(links, function(index,value) {
+      link = $(value)
+      if(link.attr('href') == window.location.pathname) {
+        link.closest('li').addClass('active');
+      }
+    });
+});

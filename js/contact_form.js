@@ -43,31 +43,13 @@ $(document).ready(function() {
         if(proceed) 
         { 
           $.ajax({
-            type: "POST",
-            url: "https://mandrillapp.com/api/1.0/messages/send.json",
+            dataType: 'jsonp',
+            url: "http://getsimpleform.com/messages/ajax?form_api_token=6cd118b6a91e999da8a87c9fdb24c385",
             data: {
-              "key": "Bm9ylyO8xILbtfVFemZ0gQ",
-              "message": {
-                "text": user_message,
-                "subject": user_subject,
-                "from_email": user_email,
-                "from_name": user_name,
-                "to": [
-                    {
-                        "email": "gumoraees@gmail.com",
-                        "name": "Gustavo Morais",
-                        "type": "to"
-                    },
-                    {
-                        "email": "germanotm@gmail.com",
-                        "name": "Germano Teixeira",
-                        "type": "cc"
-                    }
-                ],
-                "headers": {
-                    "Reply-To": user_email
-                }
-              }
+              name: user_name,
+              from: user_email,
+              subject: user_subject,
+              message: user_message
             }
           }).fail(function(data) {
             notice.removeClass().html("Erro ao enviar mensagem!").addClass("alert alert-danger alert-dismissable").fadeIn(400);

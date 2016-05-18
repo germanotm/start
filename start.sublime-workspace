@@ -16,6 +16,23 @@
 			}
 		},
 		{
+			"file": "areas.html",
+			"settings":
+			{
+				"buffer_size": 3980,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "paula radioimagem\n\nNotafiscal, ",
+			"settings":
+			{
+				"buffer_size": 31,
+				"line_ending": "Unix",
+				"name": "paula radioimagem"
+			}
+		},
+		{
 			"file": ".gitignore",
 			"settings":
 			{
@@ -64,6 +81,9 @@
 	],
 	"file_history":
 	[
+		"/home/germano/projetos/start/_includes/footer.html",
+		"/home/germano/projetos/start/contact.html",
+		"/home/germano/projetos/start/_site/areas.html",
 		"/home/germano/projetos/start/start.sublime-workspace",
 		"/home/germano/Área de Trabalho/hd cro.txt",
 		"/home/germano/aapj.properties",
@@ -153,7 +173,7 @@
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -168,6 +188,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ul",
+			"gumoraees@hotmail.com",
+			"(31) 99810-5733",
 			"dens in de",
 			"request_para",
 			"chart",
@@ -217,7 +240,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -245,11 +268,69 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
+					"file": "areas.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3980,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								976,
+								976
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 31,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								31,
+								31
+							]
+						],
+						"settings":
+						{
+							"auto_name": "paula radioimagem",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": ".gitignore",
 					"semi_transient": false,
 					"settings":
@@ -273,7 +354,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
@@ -327,6 +408,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"area",
+				"areas.html"
+			],
 			[
 				"gitgno",
 				".gitignore"
@@ -541,9 +626,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "cfaz",
+		"last_filter": "integra",
 		"selected_items":
 		[
+			[
+				"integra",
+				"~/projetos/cfaz-integration/cfaz-integration.sublime-project"
+			],
 			[
 				"cfaz",
 				"~/projetos/cfaz/cfaz.sublime-project"

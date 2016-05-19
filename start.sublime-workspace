@@ -24,12 +24,11 @@
 			}
 		},
 		{
-			"contents": "paula radioimagem\n\nNotafiscal, ",
+			"contents": "",
 			"settings":
 			{
-				"buffer_size": 31,
-				"line_ending": "Unix",
-				"name": "paula radioimagem"
+				"buffer_size": 0,
+				"line_ending": "Unix"
 			}
 		},
 		{
@@ -81,6 +80,7 @@
 	],
 	"file_history":
 	[
+		"/home/germano/projetos/start/CNAME",
 		"/home/germano/projetos/start/_includes/footer.html",
 		"/home/germano/projetos/start/contact.html",
 		"/home/germano/projetos/start/_site/areas.html",
@@ -306,20 +306,20 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 31,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								31,
-								31
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"auto_name": "paula radioimagem",
+							"auto_name": "",
 							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
@@ -626,9 +626,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "integra",
+		"last_filter": "maanger",
 		"selected_items":
 		[
+			[
+				"maanger",
+				"~/projetos/cfaz-manager/cfaz-manager.sublime-project"
+			],
 			[
 				"integra",
 				"~/projetos/cfaz-integration/cfaz-integration.sublime-project"

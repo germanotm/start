@@ -44,7 +44,7 @@ $(document).ready(function() {
         { 
           $.ajax({
             dataType: 'jsonp',
-            url: "http://getsimpleform.com/messages/ajax?form_api_token=6cd118b6a91e999da8a87c9fdb24c385",
+            url: "http://getsimpleform.com/messages/ajax?form_api_token=6374d625c51d68dd6e785459d9c1e02c",
             data: {
               name: user_name,
               from: user_email,

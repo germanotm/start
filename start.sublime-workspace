@@ -52,13 +52,14 @@
 	},
 	"expanded_folders":
 	[
-		"/home/germano/projetos/start"
+		"/home/germano/projetos/start",
+		"/home/germano/projetos/start/images"
 	],
 	"file_history":
 	[
+		"/home/germano/projetos/start/areas.html",
 		"/home/germano/projetos/start/.gitignore",
 		"/home/germano/projetos/start/.ruby-version",
-		"/home/germano/projetos/start/areas.html",
 		"/home/germano/projetos/start/CNAME",
 		"/home/germano/projetos/start/_includes/footer.html",
 		"/home/germano/projetos/start/contact.html",
@@ -235,8 +236,8 @@
 						"selection":
 						[
 							[
-								809,
-								809
+								352,
+								352
 							]
 						],
 						"settings":
@@ -245,7 +246,7 @@
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": -0.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -307,6 +308,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"areas",
+				"areas.html"
+			],
 			[
 				"contacjs",
 				"js/contact_form.js"
@@ -529,9 +534,13 @@
 	"select_project":
 	{
 		"height": 500.0,
-		"last_filter": "mana",
+		"last_filter": "cfa",
 		"selected_items":
 		[
+			[
+				"cfa",
+				"~/projetos/cfaz/cfaz.sublime-project"
+			],
 			[
 				"mana",
 				"~/projetos/cfaz-manager/cfaz-manager.sublime-project"
@@ -567,10 +576,6 @@
 			[
 				"manager",
 				"~/projetos/cfaz-manager/cfaz-manager.sublime-project"
-			],
-			[
-				"cfa",
-				"~/projetos/cfaz/cfaz.sublime-project"
 			],
 			[
 				"cafz",
